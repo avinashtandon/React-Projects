@@ -1,0 +1,57 @@
+/* Style for the Counter App header */
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Style for the counter value */
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  /* Common styles for both buttons */
+  button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style for the decrement button */
+  button:nth-child(1) {
+    background-color: black;
+    color: black;
+  }
+  
+  button:nth-child(1):hover {
+    background-color: black;
+  }
+  
+  button:nth-child(1):disabled {
+    background-color: black;
+    cursor: not-allowed;
+  }
+  
+  /* Style for the increment button */
+  button:nth-child(2) {
+    background-color:black;
+    color: white;
+  }
+  
+  button:nth-child(2):hover {
+    background-color: black;
+  }
+  
+  /* Container style */
+  div {
+    text-align: center;
+  }
+  
