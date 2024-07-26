@@ -1,6 +1,10 @@
 import React from "react";
 
 function ToDo() {
+    const [task, setTask] = React.useState(""); 
+    const handelInputChange = (value) => {
+        setTask(value);
+    };
   return (
     <section>
       <header>
@@ -13,7 +17,7 @@ function ToDo() {
               type="text"
               className="Todo-input"
               placeholder="Enter a new task"
-              autoComplete="off"
+              autoComplete="off" value={task} onChange={(e)=> handelInputChange(e.target.value)}
             />
           </div>
           <div>
