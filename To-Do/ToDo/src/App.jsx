@@ -1,10 +1,11 @@
 import React from 'react'
+import ToDo from './ToDo/ToDo'
 
-function App() {
+const App = () => {
   return (
-    <>
-    
-    </>
+    <section>
+      {<ToDo />}
+    </section>
   )
 }
 
